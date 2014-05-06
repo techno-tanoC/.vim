@@ -1,9 +1,11 @@
 VimClojure
+fsharp-vim
 neobundle.vim
 neocomplcache
 neosnippet
 syntastic
 unite.vim
+vim-ruby
 vim-slime
 vim-submode
 vimproc

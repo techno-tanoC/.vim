@@ -1,4 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/home/rakugakist/.vim'
 let g:netrw_dirhist_2='/home/rakugakist/.vim/bundle'
+let g:netrw_dirhist_3='/home/rakugakist/rails/sample_app'
+let g:netrw_dirhist_4='/home/rakugakist/rails/sample_app/app'
+let g:netrw_dirhist_5='/home/rakugakist/rails/sample_app/app/views'
+let g:netrw_dirhist_6='/home/rakugakist/rails/sample_app/app/views/static_pages'
