@@ -12,4 +12,5 @@ git clone https://github.com/Shougo/vimproc ~/.vim/bundle/vimproc
 
 # .vim/bundle/vimprocで
 
-make -f ~/.vim/bundle/vimproc/make_unix.mak
+cd ~/.vim/bundle/vimproc/
+make -f make_unix.mak

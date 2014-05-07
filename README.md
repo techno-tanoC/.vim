@@ -18,3 +18,6 @@ git clone https://github.com/Shougo/vimproc ~/.vim/bundle/vimproc
 " .vim/bundle/vimprocで
 
 make -f make_unix.mak
+
+# ここの設定を追加
+# http://qiita.com/hide/items/229ff9460e75426a2d07
