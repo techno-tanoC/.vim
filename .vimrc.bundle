@@ -21,6 +21,7 @@ NeoBundle 'scrooloose/syntastic'
 NeoBundle 'kana/vim-submode'
 NeoBundle 'vim-ruby/vim-ruby'
 
+NeoBundle 'kana/vim-filetype-haskell'
 NeoBundle 'ujihisa/neco-ghc'
 
 filetype plugin indent on     " required!
