@@ -23,6 +23,9 @@ NeoBundle 'vim-ruby/vim-ruby'
 
 NeoBundle 'kana/vim-filetype-haskell'
 NeoBundle 'ujihisa/neco-ghc'
+NeoBundle "thinca/vim-quickrun"
+NeoBundle "osyo-manga/shabadou.vim"
+NeoBundle "osyo-manga/vim-watchdogs"
 
 filetype plugin indent on     " required!
 filetype indent on
