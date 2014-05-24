@@ -1,7 +1,12 @@
-# some more ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
+alias reload="source ~/.bash_profile"
+alias sudo="sudo "
 
-alias be='bundle exec'
+alias la="ls -A"
+alias ll="ls -Al"
+alias be="bundle exec"
+alias biv="bundle install --path vendor/bundle"
 
+alias ghci="ghci -XOverloadedStrings"
+alias repl="cabal repl"
+
+export PATH=$SCALA_HOME/bin/:$PATH
