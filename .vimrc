@@ -15,6 +15,10 @@ if filereadable(expand('$HOME/.vim/.vimrc.cache'))
   source $HOME/.vim/.vimrc.cache
 end
 
+if filereadable(expand('$HOME/.vim/.vimrc.nerdtree')) 
+  source $HOME/.vim/.vimrc.nerdtree
+end
+
 set runtimepath+=~/.vim/
 runtime! userautoload/*.vim
 
