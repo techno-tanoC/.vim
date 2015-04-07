@@ -1,22 +1,22 @@
 " neobundleは最初に読み込んでおく
-if filereadable(expand('$HOME/.vim/.vimrc.bundle')) 
-  source $HOME/.vim/.vimrc.bundle
+if filereadable(expand('$HOME/.vim/bundle.vimrc')) 
+  source $HOME/.vim/bundle.vimrc
 end
 
-if filereadable(expand('$HOME/.vim/.vimrc.submode')) 
-  source $HOME/.vim/.vimrc.submode
+if filereadable(expand('$HOME/.vim/submode.vimrc')) 
+  source $HOME/.vim/submode.vimrc
 end
 
-if filereadable(expand('$HOME/.vim/.vimrc.netrw')) 
-  source $HOME/.vim/.vimrc.netrw
+if filereadable(expand('$HOME/.vim/netrw.vimrc')) 
+  source $HOME/.vim/netrw.vimrc
 end
 
-if filereadable(expand('$HOME/.vim/.vimrc.cache')) 
-  source $HOME/.vim/.vimrc.cache
+if filereadable(expand('$HOME/.vim/cache.vimrc')) 
+  source $HOME/.vim/cache.vimrc
 end
 
-if filereadable(expand('$HOME/.vim/.vimrc.nerdtree')) 
-  source $HOME/.vim/.vimrc.nerdtree
+if filereadable(expand('$HOME/.vim/nerdtree.vimrc')) 
+  source $HOME/.vim/nerdtree.vimrc
 end
 
 set runtimepath+=~/.vim/
