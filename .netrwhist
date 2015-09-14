@@ -1,10 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
-let g:netrw_dirhist_1='/home/tech/progra/scala/site-script/src/main'
-let g:netrw_dirhist_2='/home/tech/progra/scala/site-script/src/main/scala'
-let g:netrw_dirhist_3='/home/tech/progra/scala/site-script/src/main/scala/himawari'
-let g:netrw_dirhist_4='/home/tech/progra/scala/site-script'
-let g:netrw_dirhist_5='/home/tech/progra/scala/site-script/src'
-let g:netrw_dirhist_6='/home/tech/progra/scala/site-script/src/main'
-let g:netrw_dirhist_7='/home/tech/progra/scala/site-script/src/main/scala'
-let g:netrw_dirhist_8='/home/tech/progra/scala/site-script/src/main/scala/himawari'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/tech'
+let g:netrw_dirhist_2='/home/tech/.vim'
+let g:netrw_dirhist_3='/home/tech'
