@@ -22,6 +22,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 " Note: You don't set neobundle setting in .gvimrc!
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'kana/vim-submode'
+NeoBundle 'tomasr/molokai'
 
 call neobundle#end()
 
