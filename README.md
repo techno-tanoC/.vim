@@ -1,29 +1,23 @@
-#.vim
-====
+# My .vim
 
-# NeoBundleのインストール
-# http://qiita.com/puriketu99/items/1c32d3f24cc2919203eb
+## plugin
+NeoBundle: https://github.com/Shougo/neobundle.vim
 
-mkdir -p ~/.vim/bundle
+NERDTree: https://github.com/scrooloose/nerdtree
 
-git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
+## reference
+[Vimの便利な画面分割＆タブページと、それを更に便利にする方法 - Qiita](http://qiita.com/tekkoc/items/98adcadfa4bdc8b5a6ca)
 
-git clone https://github.com/Shougo/vimproc ~/.vim/bundle/vimproc
-
-# NeoBundleの設定ファイルはvimrcの中で最初に読み込む
+[neocomplcache.vim まとめ - Qiita](http://qiita.com/hide/items/229ff9460e75426a2d07)
 
 
-# VimShellの設定
+## memo
 
-# .vim/bundle/vimprocで
+* NeoBundleの設定ファイルはvimrcの中で最初に読み込む
 
-cd ~/.vim/bundle
+### VimShellの設定
 
+```sh
+cd ~/.vim/bundle/vimproc
 make -f make_unix.mak
-
-# ここの設定を追加
-# http://qiita.com/hide/items/229ff9460e75426a2d07
-
-# neco-ghc
-# cabal install ghc-mod
-# export PATH=$HOME/.cabal/bin:$PATH
+```
