@@ -5,6 +5,8 @@ NeoBundle: https://github.com/Shougo/neobundle.vim
 
 NERDTree: https://github.com/scrooloose/nerdtree
 
+kana/vim-submode: https://github.com/kana/vim-submode
+
 ## reference
 [Vimの便利な画面分割＆タブページと、それを更に便利にする方法 - Qiita](http://qiita.com/tekkoc/items/98adcadfa4bdc8b5a6ca)
 
