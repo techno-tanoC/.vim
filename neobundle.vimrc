@@ -25,6 +25,7 @@ NeoBundle 'kana/vim-submode'
 NeoBundle 'tomasr/molokai'
 NeoBundle 'Yggdroot/indentLine'
 NeoBundle 'tomtom/tcomment_vim'
+NeoBundle 'itchyny/lightline.vim'
 
 call neobundle#end()
 

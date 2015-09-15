@@ -13,6 +13,8 @@ indentLine: https://github.com/Yggdroot/indentLine
 
 tcomment_vim: https://github.com/tomtom/tcomment_vim
 
+lightline.vim: https://github.com/itchyny/lightline.vim
+
 ## reference
 [Vimの便利な画面分割＆タブページと、それを更に便利にする方法 - Qiita](http://qiita.com/tekkoc/items/98adcadfa4bdc8b5a6ca)
 
