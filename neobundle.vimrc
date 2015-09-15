@@ -23,6 +23,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'kana/vim-submode'
 NeoBundle 'tomasr/molokai'
+NeoBundle 'Yggdroot/indentLine'
 
 call neobundle#end()
 
