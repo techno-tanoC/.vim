@@ -17,5 +17,7 @@ call s:safeload(vimrc . "nerdtree.vimrc")
 
 set expandtab shiftwidth=2 tabstop=2
 
+set splitright
+
 colorscheme molokai
 set t_Co=256
