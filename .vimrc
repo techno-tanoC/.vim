@@ -15,9 +15,13 @@ call s:safeload(vimrc . "submode.vimrc")
 
 call s:safeload(vimrc . "nerdtree.vimrc")
 
-set expandtab shiftwidth=2 tabstop=2
+set expandtab shiftwidth=2 tabstop=2 smarttab whichwrap=b,s,h,l,<,>,[,]
 
 set splitright
+
+set noswapfile
+
+set ruler
 
 colorscheme molokai
 set t_Co=256
