@@ -37,8 +37,15 @@ NeoBundle 'Shougo/vimproc.vim', {
 \    },
 \ }
 
+" Haskell
 NeoBundle 'eagletmt/ghcmod-vim'
 NeoBundle 'travitch/hasksyn'
+
+" Elixir
+NeoBundle 'elixir-lang/vim-elixir'
+
+" slim
+NeoBundle 'slim-template/vim-slim'
 
 call neobundle#end()
 
