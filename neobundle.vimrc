@@ -26,6 +26,8 @@ NeoBundle 'tomasr/molokai'
 NeoBundle 'Yggdroot/indentLine'
 NeoBundle 'tomtom/tcomment_vim'
 NeoBundle 'itchyny/lightline.vim'
+NeoBundle 'Shougo/unite.vim'
+NeoBundle 'Shougo/neomru.vim'
 
 NeoBundle 'Shougo/vimproc.vim', {
 \ 'build' : {
