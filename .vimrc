@@ -11,7 +11,7 @@ let vimrc = "$HOME/.vim/"
 " load neobundle first
 call s:safeload(vimrc . "neobundle.vimrc")
 
-call s:safeload(vimrc . "submode.vimrc")
+call s:safeload(vimrc . "map.vimrc")
 
 call s:safeload(vimrc . "nerdtree.vimrc")
 
