@@ -15,6 +15,8 @@ call s:safeload(vimrc . "map.vimrc")
 
 call s:safeload(vimrc . "nerdtree.vimrc")
 
+call s:safeload(vimrc . "unite.vimrc")
+
 set expandtab shiftwidth=2 tabstop=2 smarttab whichwrap=b,s,h,l,<,>,[,]
 
 set splitright
