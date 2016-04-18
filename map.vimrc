@@ -25,6 +25,7 @@ nnoremap <Space>b :<C-u>Unite buffer_tab -buffer-name=file<CR>
 nnoremap <Space>B :<C-u>Unite buffer -buffer-name=file<CR>
 
 nnoremap <Space><Space> :Unite file <CR>
+" nnoremap <Space><Space> :VimFiler<CR>
 nnoremap <Space>r :Unite file_rec -start-insert -default-action=right<CR>
 nnoremap <Space>v :Unite file_rec -start-insert -default-action=lef<CR>
 

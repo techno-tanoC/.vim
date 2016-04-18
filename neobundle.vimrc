@@ -28,6 +28,7 @@ NeoBundle 'tomtom/tcomment_vim'
 NeoBundle 'itchyny/lightline.vim'
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/neomru.vim'
+NeoBundle 'Shougo/vimfiler.vim'
 
 NeoBundle 'Shougo/vimproc.vim', {
 \ 'build' : {
@@ -48,6 +49,9 @@ NeoBundle 'elixir-lang/vim-elixir'
 
 " slim
 NeoBundle 'slim-template/vim-slim'
+
+" less
+NeoBundle 'groenewege/vim-less'
 
 call neobundle#end()
 
