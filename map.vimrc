@@ -29,6 +29,10 @@ nnoremap <Space><Space> :Unite file <CR>
 nnoremap <Space>r :Unite file_rec -start-insert -default-action=right<CR>
 nnoremap <Space>v :Unite file_rec -start-insert -default-action=lef<CR>
 
+nmap ,t :GhcModType<CR>
+nmap ,T :GhcModTypeInsert<CR>
+nmap ,c :GhcModTypeClear<CR>
+
 call submode#enter_with('bufmove', 'n', '', '<Space>>', '<C-w>>')
 call submode#enter_with('bufmove', 'n', '', '<Space><', '<C-w><')
 call submode#enter_with('bufmove', 'n', '', '<Space>+', '<C-w>+')
