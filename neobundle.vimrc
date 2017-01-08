@@ -53,6 +53,9 @@ NeoBundle 'slim-template/vim-slim'
 " less
 NeoBundle 'groenewege/vim-less'
 
+" javascript
+NeoBundle 'othree/yajs.vim'
+
 call neobundle#end()
 
 " Required:
