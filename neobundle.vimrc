@@ -49,12 +49,19 @@ NeoBundle 'elixir-lang/vim-elixir'
 
 " slim
 NeoBundle 'slim-template/vim-slim'
+autocmd BufRead,BufNewFile *.slim setfiletype slim
 
 " less
 NeoBundle 'groenewege/vim-less'
 
 " javascript
 NeoBundle 'othree/yajs.vim'
+
+" rust
+NeoBundle 'rust-lang/rust.vim'
+
+" scala
+NeoBundle 'derekwyatt/vim-scala'
 
 call neobundle#end()
 
