@@ -1,1 +1,0 @@
-noremap <CR> o<ESC>
