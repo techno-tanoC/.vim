@@ -45,6 +45,8 @@ set expandtab shiftwidth=2 tabstop=2 smarttab whichwrap=b,s,h,l,<,>,[,]
 set splitright
 set noswapfile
 set laststatus=2 " for lightline
+" set conceallevel=0
+let g:vim_json_syntax_conceal = 0
 
 autocmd BufRead,BufNewFile *.slim setfiletype slim
 

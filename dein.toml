@@ -41,3 +41,6 @@ repo = 'kana/vim-submode'
 #   " let g:ctrlp_map = '<Space><Space>'
 #   let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
 # '''
+
+[[plugins]]
+repo = 'elzr/vim-json'
