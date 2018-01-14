@@ -50,6 +50,9 @@ let g:vim_json_syntax_conceal = 0
 
 autocmd BufRead,BufNewFile *.slim setfiletype slim
 
+" paste
+nnoremap <silent> <Space>p :set invpaste paste?<CR>
+
 " window
 nnoremap <Space> <Nop>
 nnoremap <Space>j <C-w>j
