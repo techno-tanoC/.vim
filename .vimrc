@@ -1,25 +1,23 @@
 if &compatible
   set nocompatible               " Be iMproved
-endif 
-" Required:
-set runtimepath+=~/.vim/repos/github.com/Shougo/dein.vim
-
-let s:dein_dir = '~/.vim'
+endif
 
 " Required:
-if dein#load_state(s:dein_dir)
-  call dein#begin(s:dein_dir)
+set runtimepath+=~/.vim/repos/repos/github.com/Shougo/dein.vim
+
+" Required:
+if dein#load_state('~/.vim/repos')
+  call dein#begin('~/.vim/repos')
 
   " Let dein manage dein
   " Required:
-  call dein#add(s:dein_dir . '/repos/github.com/Shougo/dein.vim')
+  call dein#add('~/.vim/repos/repos/github.com/Shougo/dein.vim')
 
   " Add or remove your plugins here:
   " call dein#add('Shougo/neosnippet.vim')
   " call dein#add('Shougo/neosnippet-snippets')
-
-  call dein#load_toml(s:dein_dir . '/dein.toml', {'lazy': 0})
-  call dein#load_toml(s:dein_dir . '/dein_lazy.toml', {'lazy': 1})
+  call dein#load_toml('~/.vim/dein.toml', {'lazy': 0})
+  call dein#load_toml('~/.vim/dein_lazy.toml', {'lazy': 1})
 
   " You can specify revision/branch/tag.
   " call dein#add('Shougo/deol.nvim', { 'rev': 'a1b5108fd' })
@@ -27,7 +25,6 @@ if dein#load_state(s:dein_dir)
   " Required:
   call dein#end()
   call dein#save_state()
-
 endif
 
 " Required:
