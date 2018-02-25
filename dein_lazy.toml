@@ -13,6 +13,16 @@ on_ft = 'ruby'
 repo = 'elixir-lang/vim-elixir'
 on_ft = 'elixir'
 
+# haskell
+[[plugins]]
+repo = 'neovimhaskell/haskell-vim.git'
+on_ft = 'haskell'
+
+# scala
+[[plugins]]
+repo = 'derekwyatt/vim-scala'
+on_ft = 'scala'
+
 # slim
 # autocmd BufRead,BufNewFile *.slim setfiletype slimしておく
 [[plugins]]
