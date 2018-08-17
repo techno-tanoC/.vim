@@ -29,3 +29,8 @@ on_ft = 'scala'
 repo = 'slim-template/vim-slim'
 on_ft = "slim"
 hook_add = "autocmd BufRead,BufNewFile *.slim setfiletype slim"
+
+# elm
+[[plugins]]
+repo = "ElmCast/elm-vim"
+on_ft = "elm"
