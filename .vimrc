@@ -53,6 +53,9 @@ nnoremap <silent> <Space>p :set invpaste paste?<CR>
 " Turn off paste mode when leaving insert
 " autocmd InsertLeave * set nopaste
 
+nnoremap <S-l> $
+nnoremap <S-h> ^
+
 " window
 nnoremap <Space> <Nop>
 nnoremap <Space>j <C-w>j
